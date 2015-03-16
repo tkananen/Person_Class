@@ -9,7 +9,7 @@ public class Person {
 	
 	
 	public Person() {
-		super();
+		
 		
 	}
 	public Person(String name, String address, String phone_number, String email_address){

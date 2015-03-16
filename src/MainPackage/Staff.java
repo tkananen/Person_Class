@@ -3,9 +3,15 @@ package MainPackage;
 public class Staff extends Employee {
 	private String title;
 	
+	public Staff(){
+		super();
+		
+	}
+	
+	
 	public Staff(String name, String address, String phone_number, String email_address, String office, Double salary, String date_hired, String title){
 		super(name, address, phone_number, email_address, office, salary, date_hired);
-		this.setTitle(title);
+		this.title = title;
 	}
 
 	

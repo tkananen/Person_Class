@@ -5,6 +5,10 @@ public class Employee extends Person {
 	private double salary;
 	private String date_hired;
 	
+	public Employee(){
+		super();
+	}
+	
 	public Employee(String name, String address, String phone_number, String email_address, String office, Double salary, String date_hired){
 		super(name, address, phone_number, email_address);
 		this.office = office;

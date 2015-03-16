@@ -37,7 +37,7 @@ public class Student_test {
 		*/ 
 		
 
-		Student myStudent = new Student("tommy", "MainStree","20312312","tkananen@hotmail.com","sophomore") ;
+		Student myStudent = new Student("tommy", "MainStree","20312312","tkananen@hotmail.com",myStudent.getClass) ;
 		
 		System.out.print(myStudent);
 		

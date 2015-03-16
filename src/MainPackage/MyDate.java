@@ -16,20 +16,10 @@ public class MyDate {
 	
 		}
 
-
-
-
-
 	@Override
 	public String toString() {
 		return "Class: " + getClass();
 	}
-
-
-
-
-
-	
 
 	public int getYear() {
 		return Year;
