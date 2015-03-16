@@ -1,6 +1,7 @@
 package MainPackage;
 
 public class Student extends Person  {
+	private EClassStatus grade;
 	
 		
 	
@@ -8,9 +9,9 @@ public class Student extends Person  {
 
 
 
-	public Student(String name, String address, String phone_number, String email_address, int ClassStatus){
+	public Student(String name, String address, String phone_number, String email_address, EClassStatus grade){
 		super(name, address, phone_number, email_address);
-		this.grade = ClassStatus;
+		this.grade = grade;
 		
 				
 	}

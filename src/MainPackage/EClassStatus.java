@@ -1,6 +1,6 @@
 package MainPackage;
 
-public enum ClassStatus {
+public enum EClassStatus {
 	
 	
 	FRESHMAN(2),
@@ -10,10 +10,10 @@ public enum ClassStatus {
 	
 	private int grade;
 	
-	private ClassStatus(int ClassStatus){
-		this.grade = ClassStatus;
+	private EClassStatus(int grade){
+		this.grade = grade;
 	}
-	public int getClassStatus(){
+	public int getEClassStatus(){
 		return grade;
 	}
 	
